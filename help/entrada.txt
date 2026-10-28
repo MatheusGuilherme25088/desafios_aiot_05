@@ -1,0 +1,13 @@
+3
+A 10 incorrect
+A 20 correct
+B 30 incorrect
+4
+B 50 incorrect
+A 100 correct
+B 111 correct
+C 200 correct
+2
+D 5 incorrect
+D 9 incorrect
+0
