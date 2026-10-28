@@ -24,6 +24,13 @@ crescente e separados por espaço.
 - Logo, as portas abertas são 1, 4, 9, 16, 25, ... até N.
 
 ## Como executar
+Dentro desta pasta, em qualquer terminal (PowerShell, CMD ou Bash):
 ```
-python fechem_as_portas.py < entrada.txt
+python fechem_as_portas.py
 ```
+O programa lê sozinho o `entrada.txt` desta pasta. O resultado deve ser
+igual ao `saida.txt`.
+
+Também funciona passando a entrada pelo terminal:
+- CMD ou Bash: `python fechem_as_portas.py < entrada.txt`
+- PowerShell: `Get-Content entrada.txt | python fechem_as_portas.py`

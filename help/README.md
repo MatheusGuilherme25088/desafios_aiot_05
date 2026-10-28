@@ -32,6 +32,13 @@ Para cada caso, uma linha com os inteiros **S** e **P** separados por espaço.
   → S = 3 e P = 100 + (111 + 20) + 200 = **431**.
 
 ## Como executar
+Dentro desta pasta, em qualquer terminal (PowerShell, CMD ou Bash):
 ```
-python help.py < entrada.txt
+python help.py
 ```
+O programa lê sozinho o `entrada.txt` desta pasta. O resultado deve ser
+igual ao `saida.txt`.
+
+Também funciona passando a entrada pelo terminal:
+- CMD ou Bash: `python help.py < entrada.txt`
+- PowerShell: `Get-Content entrada.txt | python help.py`

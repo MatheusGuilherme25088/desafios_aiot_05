@@ -20,6 +20,13 @@ com **duas casas decimais**.
 - Exemplo: 5 amigos e 431 acerolas → 431 × 50 / 5 / 1000 = **4.31** litros.
 
 ## Como executar
+Dentro desta pasta, em qualquer terminal (PowerShell, CMD ou Bash):
 ```
-python suco_de_acerola.py < entrada.txt
+python suco_de_acerola.py
 ```
+O programa lê sozinho o `entrada.txt` desta pasta. O resultado deve ser
+igual ao `saida.txt`.
+
+Também funciona passando a entrada pelo terminal:
+- CMD ou Bash: `python suco_de_acerola.py < entrada.txt`
+- PowerShell: `Get-Content entrada.txt | python suco_de_acerola.py`

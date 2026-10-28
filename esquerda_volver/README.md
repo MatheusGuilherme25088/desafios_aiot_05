@@ -23,6 +23,13 @@ Para cada caso, uma linha com a direção final: `N` (Norte), `L` (Leste),
 - `D` soma 1 e `E` subtrai 1 da posição; o `% 4` faz a volta completa.
 
 ## Como executar
+Dentro desta pasta, em qualquer terminal (PowerShell, CMD ou Bash):
 ```
-python esquerda_volver.py < entrada.txt
+python esquerda_volver.py
 ```
+O programa lê sozinho o `entrada.txt` desta pasta. O resultado deve ser
+igual ao `saida.txt`.
+
+Também funciona passando a entrada pelo terminal:
+- CMD ou Bash: `python esquerda_volver.py < entrada.txt`
+- PowerShell: `Get-Content entrada.txt | python esquerda_volver.py`

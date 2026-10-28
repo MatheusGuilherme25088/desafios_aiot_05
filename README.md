@@ -16,7 +16,14 @@ Cada pasta contém:
 - `README.md`: a descrição do desafio.
 
 ## Como executar
-Dentro da pasta de um desafio:
+Dentro da pasta de um desafio, em qualquer terminal (PowerShell, CMD ou Bash):
 ```
-python nome_desafio.py < entrada.txt
+python nome_desafio.py
 ```
+O programa lê sozinho o `entrada.txt` da pasta dele.
+
+Para testar todos os desafios de uma vez, na pasta `desafios`:
+```
+python testar.py
+```
+Ele roda cada programa e compara o resultado com o `saida.txt`.
